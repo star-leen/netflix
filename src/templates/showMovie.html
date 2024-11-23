@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Movie
+{% endblock title %}
+
+{% block header %}
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <style>
+        .player::-webkit-progress-bar{
+            color: red;
+        }
+    </style>
+{% endblock header %}
+
+{% block content %}
+    <main class='bg-primary_black h-full w-full '>
+        
+        <video src="assets/test.mp4" controls class="w-full h-screen player"></video>
+        
+    </main>
+{% endblock %}

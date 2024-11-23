@@ -1,0 +1,4 @@
+Django
+pillow==10.4.0
+django-allauth[socialaccount]
+python-decouple
